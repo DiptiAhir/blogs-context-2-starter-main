@@ -13,7 +13,7 @@ export default function App() {
   // const [searchParams,setSearchParams] = useState();
   const [searchParams] = useSearchParams(); // Ensure this is properly imported and used 
   const location = useLocation();
-
+// hello
   useEffect(()=>{
     const page = searchParams.get("page") ?? 1;
 
